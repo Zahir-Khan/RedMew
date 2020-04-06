@@ -769,6 +769,7 @@ local function init(config)
             upgrade_rate = 0.5,
             upgrade_base_cost = 500,
             upgrade_cost_base = 2,
+            upgrade_max_level = 8,
             {name = 'wood', price = 1},
             {name = 'iron-plate', price = 2},
             {name = 'stone', price = 2},
@@ -786,6 +787,12 @@ local function init(config)
                 name = 'small-plane',
                 name_label = 'Train Immunity (1x use)',
                 description = 'Each small plane in your inventory will save you from being killed by a train once.'
+            },
+            {
+                price = 100000,
+                name = 'super_arty_upgrade',
+                name_label = 'Boom! Boom!',
+                description = 'Super long range artillery upgrade that covers the whole map!'
             }
         }
     }
